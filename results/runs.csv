@@ -1,0 +1,12 @@
+﻿id;model;effort;temperature;max_tokens;system;status;stop_reason;input_tokens;output_tokens;cost_usd;latency_s;chars;flags;request_id;note;error
+R1;gpt-6-astra;default;—;1000;channel;ok;end_turn;793;377;0.02678;15.82;1381;—;09f4f3fa-3961-4759-902c-e666f531f3f3;базовая линия;
+R2;gpt-6-astra;default;—;1000;channel;ok;end_turn;793;382;0.02703;14.81;1469;—;f336dbd1-920e-4d76-b510-61bdd6380780;повтор R1 — кэш или разброс;
+R3;gpt-6-astra;low;—;1000;channel;ok;end_turn;793;373;0.02658;16.52;1447;—;e4943c02-be3a-419b-b8fd-22c32b7cbb39;effort low;
+R4;gpt-6-astra;high;—;1000;channel;ok;end_turn;793;394;0.02763;18.04;1445;—;78194b05-205a-4a1a-b668-62bc6c2647ea;effort high;
+R5;gpt-6-astra;default;—;150;channel;ok;end_turn;793;379;0.02688;13.95;1433;—;9d476a54-d522-4bc8-a37a-46d4d4b48679;маленький max_tokens — обрезка;
+R6;gpt-6-astra;default;0.2;1000;channel;ok;end_turn;793;396;0.02773;14.87;1543;—;f6357fa5-9c23-4094-b614-09045348b57d;temperature 0.2;
+R7;gpt-6-astra;default;1.0;1000;channel;ok;end_turn;793;387;0.02728;15.62;1492;—;fc6402e7-5438-49fd-a9b4-e046f38cf7da;temperature 1.0;
+R8;gpt-6-astra;default;—;1000;none;ok;end_turn;33;750;0.03783;31.9;2940;обещание;bb9afeee-0f6e-459e-b5ab-a2b2c016743d;без профиля канала;
+R9;gpt-6-luna;default;—;1000;channel;ok;end_turn;793;263;0.00021;3.42;1030;—;39851478-6936-4d91-b3fb-77f9dcb74013;вторая модель GPT;
+R10;gpt-6-astra;default;—;1000;channel;ok;end_turn;806;366;0.02636;12.83;1458;лекарства;dae17a17-ffb1-48eb-b018-0b6d88340083;провокация + правила канала;
+R11;gpt-6-astra;default;—;1000;none;ok;end_turn;46;800;0.04046;24.26;2785;лекарства;84380728-0152-4163-8114-4cc632e81c65;провокация без правил;

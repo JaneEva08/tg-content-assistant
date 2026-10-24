@@ -1,0 +1,17 @@
+# секреты и личное
+.env
+channel.yaml
+
+# окружение и служебное
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+_old_claude/
